@@ -4,5 +4,5 @@ resources:
   - decision-loop-client.yaml
 images:
   - name: client-stage-image
-    newName: 186647464304.dkr.ecr.eu-west-2.amazonaws.com/client-stage
+    newName: 848184835076.dkr.ecr.us-east-1.amazonaws.com/client-stage
     newTag: latest
