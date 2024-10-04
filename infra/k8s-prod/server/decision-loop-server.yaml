@@ -24,56 +24,56 @@ spec:
             - name: "NODE_OPTIONS"
               value: "--max-old-space-size=6144"
             # Get it from GitHub secrets
-            - name: "DECISION_ENGINE_DB_URI"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: decision-engine-db-uri-prod
-            - name: "JWT_KEY"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: jwt-key
-            - name: "PORT"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: port
-            - name: "EMAIL_ADDRESS"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: email_address
-            - name: "EMAIL_PASSWORD"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: email_password
-            - name: "TWILIO_ACCOUNT_SID"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: twilio_account_sid
-            - name: "TWILIO_AUTH_TOKEN"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: twilio_auth_token
-            - name: "MONEYHUB_CLIENT_ID"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: moneyhub_client_id
-            - name: "MONEYHUB_CLIENT_SECRET"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: moneyhub_client_secret
-            - name: "QUIDFAIR_CLIENT_URI"
-              valueFrom:
-                secretKeyRef:
-                  name: decision-loop-server-depl
-                  key: quidfair_client_url
+           # - name: "DECISION_ENGINE_DB_URI"
+             # valueFrom:
+             #   secretKeyRef:
+              #    name: decision-loop-server-depl
+             #     key: decision-engine-db-uri-prod
+          #  - name: "JWT_KEY"
+          #    valueFrom:
+           #     secretKeyRef:
+          #        name: decision-loop-server-depl
+           #       key: jwt-key
+           # - name: "PORT"
+           #   valueFrom:
+          #      secretKeyRef:
+             #     name: decision-loop-server-depl
+             #     key: port
+          #  - name: "EMAIL_ADDRESS"
+        #      valueFrom:
+          #      secretKeyRef:
+            #      name: decision-loop-server-depl
+             #     key: email_address
+          #  - name: "EMAIL_PASSWORD"
+            #  valueFrom:
+            #    secretKeyRef:
+             #     name: decision-loop-server-depl
+              #    key: email_password
+         #   - name: "TWILIO_ACCOUNT_SID"
+           #   valueFrom:
+             #   secretKeyRef:
+             #    name: decision-loop-server-depl
+             #     key: twilio_account_sid
+          #  - name: "TWILIO_AUTH_TOKEN"
+          #    valueFrom:
+          #      secretKeyRef:
+          #        name: decision-loop-server-depl
+            #      key: twilio_auth_token
+          #  - name: "MONEYHUB_CLIENT_ID"
+          #    valueFrom:
+          #      secretKeyRef:
+          3        name: decision-loop-server-depl
+          #        key: moneyhub_client_id
+        #    - name: "MONEYHUB_CLIENT_SECRET"
+       #       valueFrom:
+         #       secretKeyRef:
+         #         name: decision-loop-server-depl
+        #          key: moneyhub_client_secret
+        #    - name: "QUIDFAIR_CLIENT_URI"
+         #     valueFrom:
+       #         secretKeyRef:
+        #          name: decision-loop-server-depl
+        #          key: quidfair_client_url
 ---
 apiVersion: v1
 kind: Service
