@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - decision-loop-server.yaml
 images:
-  - name: server-prod-image
+  - name: 848184835076.dkr.ecr.us-east-1.amazonaws.com/server-prod:latest
     newName: 848184835076.dkr.ecr.us-east-1.amazonaws.com/server-prod
     newTag: latest
