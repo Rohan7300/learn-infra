@@ -8,4 +8,4 @@ RUN npm install --legacy-peer-deps
 COPY ./ ./
 
 # Run in production mode
-CMD ["npm", "start"]
+CMD ["npm", "start"] 
