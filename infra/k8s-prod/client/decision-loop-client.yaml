@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: decision-loop-client
   template:
-    metadata:
+    metadata: 
       labels:
         app: decision-loop-client
     spec:
