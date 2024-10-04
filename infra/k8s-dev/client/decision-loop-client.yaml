@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: decision-loop-client
-          image: 186647464304.dkr.ecr.eu-west-2.amazonaws.com/client-dev:latest-client
+          image: 848184835076.dkr.ecr.us-east-1.amazonaws.com/client-dev:latest-client
           imagePullPolicy: Always
           env:
             - name: NEXT_PUBLIC_API_SERVER_BASE_URL
