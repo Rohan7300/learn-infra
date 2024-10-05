@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: decision-loop-server
+      app: decision-loop-server 
   template: 
     metadata:
       labels:
