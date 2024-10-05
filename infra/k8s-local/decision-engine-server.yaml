@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: decision-loop-server
-  template: 
+  template:  
     metadata:
       labels:
         app: decision-loop-server
