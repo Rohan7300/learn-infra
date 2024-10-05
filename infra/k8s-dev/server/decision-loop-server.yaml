@@ -19,7 +19,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: "CLIENT_URI"
-              value: "https://app.qa.lendinfra.com/"
+              value: "https://shiv.devworkops.xyz/"
             - name: "ENVIRONMENT"
               value: "dev"
             - name: "NODE_OPTIONS"
