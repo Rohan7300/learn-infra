@@ -11,7 +11,7 @@ spec:
   ingressClassName: alb
   rules:
     - host: app.qa.lendinfra.devworkops.xyz
-      http:
+      http: 
         paths:
           - path: /api/*
             pathType: ImplementationSpecific
