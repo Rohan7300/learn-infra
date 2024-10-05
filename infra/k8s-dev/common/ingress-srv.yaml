@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: app.qa.lendinfra.com
+    - host: app.qa.lendinfra.devworkops.xyz
       http:
         paths:
           - path: /api/*
