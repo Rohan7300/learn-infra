@@ -14,7 +14,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: decision-loop-server-srv
+                name: decision-loop-server-srv 
                 port:
                   number: 3000
           - path: /events/?(.*)
