@@ -18,7 +18,7 @@ spec:
           imagePullPolicy: Never
           env:
             - name: NEXT_PUBLIC_API_SERVER_BASE_URL
-              value: 'https://app.qa.lendinfra.com/'
+              value: 'https://app.qa.lendinfra.devworkops.xyz/'
             - name: ENVIRONMENT
               value: 'local-docker'
 
