@@ -18,7 +18,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: NEXT_PUBLIC_API_SERVER_BASE_URL
-              value: "https://app.qa.lendinfra.com/"
+              value: "https://shiv.devworkops.xyz/"
             - name: ENVIRONMENT
               value: "dev"
 ---
