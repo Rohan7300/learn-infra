@@ -6,11 +6,11 @@ metadata:
     kubernetes.io/ingress.class: "alb" 
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:848184835076:certificate/2dd6133e-21fb-4fbf-8aa6-79f306cea7f9
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:848184835076:certificate/2ef8273f-25f9-40db-b7e0-ab121a8da848
 spec:
   ingressClassName: alb
   rules:
-    - host: app.lendinfra.devworkops.xyz
+    - host: app.shiv.devworkops.xyz
       http:
         paths:
           - path: /api/*
