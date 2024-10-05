@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: "alb"
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-west-2:186647464304:certificate/335b1249-4a7e-49f9-9d58-fc06a7b37ef8
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:848184835076:certificate/2dd6133e-21fb-4fbf-8aa6-79f306cea7f9
 spec:
   ingressClassName: alb
   rules:
