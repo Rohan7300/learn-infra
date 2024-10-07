@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb 
   rules:
-    - host: app.shiv.devworkops.xyz
+    - host: app.shiv.devworkops.xyz 
       http:
         paths:
           - path: /api/*
