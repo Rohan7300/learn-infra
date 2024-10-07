@@ -4,7 +4,7 @@ metadata:
   name: ingress-srv
   annotations:
     kubernetes.io/ingress.class: "alb"  
-    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/scheme: internet-facing 
     alb.ingress.kubernetes.io/target-type: ip  
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:848184835076:certificate/2ef8273f-25f9-40db-b7e0-ab121a8da848
 spec:
