@@ -14,7 +14,7 @@ spec:
       http:
         paths:
           - path: /api/*
-            pathType: ImplementationSpecific
+            pathType: ImplementationSpecific 
             backend:
               service:
                 name: decision-loop-server-srv
