@@ -7,7 +7,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing 
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:848184835076:certificate/fe26d2d3-f5f6-422c-8400-ecb34790d0cb
-spec:
+spec: 
   ingressClassName: alb
   rules:
     - host: shiv.devworkops.xyz
